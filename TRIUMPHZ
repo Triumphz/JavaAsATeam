@@ -1,0 +1,135 @@
+package LOOP1;
+//// ข้อ 1
+public class Q1
+{
+
+	public static void main(String[] args)
+	{
+		int i = 1;
+		while (i<=100)
+		{
+			System.out.println(i);
+			i=i+1;
+		}
+
+	}
+
+}
+/////ข้อ 2
+public static void main(String[] args)
+	{
+		int i = 100;
+		while (i>=1)
+		{
+			System.out.println(i);
+			i=i-1;
+			
+		}
+		
+/////ข้อ 3
+
+public static void main(String[] args)
+	{
+		int i=2;
+		while(i<=100)
+		{
+			System.out.println(i);
+			i=i+2;
+		}
+
+	}
+	//////ข้อ4 
+	public static void main(String[] args)
+	{
+		int i = 1;
+		while(i<=100)
+		{
+			System.out.println(i);
+			i=i+2;
+		}
+
+	}
+	
+	/////ข้อ5
+	public static void main(String[] args)
+	{
+		int i = 3;
+		while (i<=100)
+		{
+			System.out.println(i);
+			i=i+3;
+		}
+
+	}
+	////ข้อ 6
+	public static void main(String[] args)
+	{
+		int i = 5;
+		while(i<=100)
+		{
+			System.out.println(i);
+			i=i+5;
+		}
+		
+		///ข้อ7
+		public static void main(String[] args)
+	{
+		int i = 1;
+		while(i<=100)
+		{
+			if (i%3==0 && i%5==0)// เอาจำนวนที่หารทั้ง3และ5ลงตัว(ทั้งสองตัว) 
+			{
+				System.out.println(i);
+			}
+			i=i+1;
+		}
+///ข้อ8
+
+public static void main(String[] args)
+	{
+		int i = 1;
+		while(i<=100)
+		{
+			if (i%3==0 || i%5==0)//เอาจำนวนที่หาร3หรือ5ลงตัว 
+			{
+				System.out.println(i);
+			}
+			i=i+1;
+		}
+////ข้อ9
+public static void main(String[] args)
+	{
+		int i;
+		for(i=1;i<=100;i++)
+		{
+			if (i%3==0||i%5==0) //1.ผมใช้การกรองข้อมูลรับเลขที่หาร3กับ5ทั้งหมด
+			{
+				if (i%3==0 && i%5==0)//2. แล้วมาตัดเอาเลขที่หาร3กับ5ได้ทั้งสองจำนวนออก 
+				{
+					continue;
+				}				
+				System.out.println(i);
+				
+			}
+			
+		}
+		
+		////ข้อ 10
+		public static void main(String[] args)
+	{
+		int i;
+		for(i=1;i<=1000;i++)
+		{	// 1.ผมใช้หลักการกรองเข้ามารับมาเป็นคู่ๆก่อน (ตัวเดียวก็ไม่สามารถเข้ามาได้ เพราะเราเริ่มกรองตั้งแต่เป็นคู่มา)							
+			if ((i%3==0&&i%5==0)||(i%3==0&&i%7==0)||(i%5==0&&i%7==0))
+			{
+				if(i%3==0&&i%5==0&&i%7==0) // 2. แล้วมากรองอีกชั้นให้ไม่เอา ทั้ง 3 ตัว  
+				{
+					continue;
+				}
+								
+				System.out.println(i);
+				
+			}
+
+
+
