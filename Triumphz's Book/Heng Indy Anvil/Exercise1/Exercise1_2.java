@@ -8,6 +8,7 @@ public class Exercise1_2 {
         Scanner sc = new Scanner(System.in); 
         System.out.print("Enter Radius : ");
         float flt_radius = sc.nextFloat();
-        System.out.println("Area :" + (3.14 * (flt_radius * flt_radius)));
+        System.out.format("Area : %.4f * (%.4f * %.4f)%n", Math.PI, flt_radius, flt_radius);
+        System.out.format("Area : %.4f", (Math.PI * (flt_radius * flt_radius)));
     }
 }
