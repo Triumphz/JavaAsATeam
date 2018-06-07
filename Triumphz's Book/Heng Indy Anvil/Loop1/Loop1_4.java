@@ -3,7 +3,7 @@ public class Loop1_4 {
         System.out.println("===== FOUR =====");
         System.out.println("พิมพ์ 1 ถึง 100 เฉพาะเลขคี่");
         for(int i= 1; i<=100; i++){
-            if(!(i % 2 == 0)) {
+            if(!(i % 2 == 0)){
                 System.out.println(i);
             }
         }
