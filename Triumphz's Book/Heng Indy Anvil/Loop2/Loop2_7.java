@@ -10,7 +10,7 @@ public class Loop2_7 {
                 System.out.print(x+1);
             }
             for(int x=int_max-i; x>0; x--){
-                System.out.print(x);
+                System.out.print(x); 
             }
             System.out.format("%n");
         }
