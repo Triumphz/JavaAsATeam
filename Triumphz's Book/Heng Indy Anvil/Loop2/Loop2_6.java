@@ -3,7 +3,7 @@ public class Loop2_6 {
         System.out.println("===== SIX =====");
         System.out.format("พิมพ์ ----------X%n---------XXX%n--------XXXXX 10 บรรทัด%n");
         int int_x = 1;
-        for(int max=10,i=max; i>=1; i--){
+        for(int int_max=10,i=int_max; i>=1; i--){
             for(int l=1; l<=i; l++){
                 System.out.print("-");
             }
