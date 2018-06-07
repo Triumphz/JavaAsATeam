@@ -9,7 +9,7 @@ public class Exercise1_3 {
         Scanner sc = new Scanner(System.in); 
         System.out.print("Enter Arae : ");
         float flt_area = sc.nextFloat();
-        System.out.format("Radius : √(%.4f / %.4f)%n", flt_radius, Math.PI);
+        System.out.format("Radius : √(%.4f / %.4f)%n", flt_area, Math.PI);
         System.out.format("Radius : %.4f", (Math.sqrt(flt_area / Math.PI)));
     }
 }
