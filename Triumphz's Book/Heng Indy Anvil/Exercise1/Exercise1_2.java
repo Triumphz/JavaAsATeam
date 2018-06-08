@@ -9,6 +9,6 @@ public class Exercise1_2 {
         System.out.print("Enter Radius : ");
         float flt_radius = sc.nextFloat();
         System.out.format("Area : %.4f * (%.4f * %.4f)%n", Math.PI, flt_radius, flt_radius);
-        System.out.format("Area : %.4f", (Math.PI * (flt_radius * flt_radius)));
+        System.out.format("Area : %.4f", (Math.PI * Math.pow(flt_radius, 2)));
     }
 }
