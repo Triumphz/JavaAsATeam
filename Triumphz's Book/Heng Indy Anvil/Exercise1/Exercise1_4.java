@@ -7,6 +7,7 @@ public class Exercise1_4 {
         System.out.println("แปลงนิ้วเป็นฟุต (1 ฟุต = 12 นิ้ว)");
         System.out.println("แปลงนิ้วเป็นเซนติเมตร (2.54 ซ.ม. = 1 นิ้ว)");
         System.out.println("แปลงนิ้วเป็นหลา (2.54 ซ.ม. = 36 นิ้ว)");
+        Scanner sc = new Scanner(System.in); 
         System.out.print("Enter IN : ");
         float flt_num = sc.nextFloat();
         System.out.format("IN => FT : %.4f%n", (flt_num / 12));
