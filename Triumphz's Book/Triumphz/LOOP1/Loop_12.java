@@ -5,7 +5,7 @@ public class Loop_12
 
 	public static void main(String[] args)
 	{
-		int i = 100;  /// ¤èÒàÃÔèÁµé¹
+		int i = 100;  /// à¹à¸à¹‰à¹„à¸‚
 				while (i>=1) // condition
 				{
 					System.out.println(i);
