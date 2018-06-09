@@ -10,7 +10,7 @@ public class Exercise1_10 {
         double dbl_f0 = 2e10;
         System.out.print("Enter f1 : ");
         double dbl_f1 =  sc.nextDouble();
-        System.out.format("V : %.4f x ((%.4f - %.4f) / (%.4f + %.4f))", 10.7585e8, dbl_f1, dbl_f0, dbl_f1, dbl_f0);
+        System.out.format("V : %.4f x ((%.4f - %.4f) / (%.4f + %.4f))%n", 10.7585e8, dbl_f1, dbl_f0, dbl_f1, dbl_f0);
         System.out.format("V : %.4f", 10.7585e8 * ((dbl_f1 - dbl_f0) / (dbl_f1 + dbl_f0)));
     }
 }
