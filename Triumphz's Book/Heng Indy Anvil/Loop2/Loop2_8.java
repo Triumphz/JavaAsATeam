@@ -1,7 +1,7 @@
 public class Loop2_8 {
     public static void main(String[] args) {
         System.out.println("===== EIGHT =====");
-        System.out.format("พิมพ์%n----------1%n---------121%n--------12321%n-------1234321 10 บรรทัด%n");
+        System.out.format("พิมพ์%n----------1%n---------123%n--------54321%n-------1234567%n------987654321 10 บรรทัด%n");
         int int_x = 1;
         for(int int_max=10,i=int_max; i>=1; i--){
             for(int l=1; l<=i; l++){
