@@ -1,22 +1,19 @@
-package a_book;
+package LOOP2;
 
-public class loop2o2_revised
+public class Q4
 {
 
 	public static void main(String[] args)
 	{
-		int i = 0;
-		while (i<10)
+		for(int i=1;i<=10;i++)
 		{
-			int x = 1;
-			while (x<=10)
+			for(int j=10;i<=j;j--)
 			{
 				System.out.print("x");
-				x++;
 			}
 			System.out.println();
-			i++;
 		}
+	
 
 	}
 
