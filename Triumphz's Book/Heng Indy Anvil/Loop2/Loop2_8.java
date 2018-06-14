@@ -5,15 +5,15 @@ public class Loop2_8 {
         int int_x = 1;
         for(int int_max=10,i=int_max; i>=1; i--){
             for(int l=1; l<=i; l++){
-                System.out.print("-");
+                System.out.format("%3s", "-");
             }
             if (i % 2 == 0) {
                 for(int x=int_x; x>=1; x--){
-                    System.out.print(x);
+                    System.out.format("%3d",x);
                 }
             } else {
                 for(int x=1; x<=int_x; x++){
-                    System.out.print(x);
+                    System.out.format("%3d",x);
                 } 
             }
             int_x+=2;
